@@ -2,35 +2,35 @@
 
 ##金三胖
 一张动图，观察发现有几帧异常，搜索动图截取工具
-
+![用工具截取动图](https://github.com/user-attachments/assets/aee711fd-70d1-4fd3-b612-2f829cbdb202)
 'flag{he11ohongke}'
 
 ##你竟然赶我走
 用010editer（HxD也一样）打开
-插图
+![截图](https://github.com/user-attachments/assets/55692278-f223-490e-9bb3-c4a9f8b639b8)
 'flag{stego_is_s0_bor1ing}'
 
 ##二维码
 扫开不是flag，用010editer（HxD也一样）打开
-插图
+![截图](https://github.com/user-attachments/assets/7a21a85b-a805-4964-a865-1768acf0e85b)
 发现txt文件
 
 ##大白
 照片只有上半部分，flag应该就藏在下半部分
 用HxD打开，修改高。01 00改成02 A7
-插图
+![01 00改成02 A7](https://github.com/user-attachments/assets/505aeb62-acb2-4d95-ba2f-622c364681ef)
 保存
-插图
+![截图](https://github.com/user-attachments/assets/888deb11-d322-4c79-bf05-9c43aba1c3c9)
 'flag{He1l0_d4_ba1}'
 
 ##wireshark
 用wireshark打开文件，ctrl+F打开搜索框搜索字符串flag
-插图
+![截图](https://github.com/user-attachments/assets/3a7585f5-ad1f-433a-b10f-f7b41893ffcb)
 'flag{fb7567a1d4f4abdffdb54e022f8fa}'
 
 ##乌镇峰会种图
 用HxD打开，ctrl+F搜索字符串flag
-插图
+![截图](https://github.com/user-attachments/assets/79986a03-1d40-4652-9d39-bc1d0ff8f31e)
 'flag{97314e7864a8f62627b26f3f998c37f1}'
 
 ##n种方法解决
@@ -39,6 +39,6 @@
 
 ##基础破解
 打开flag.txt需要密码，用ARCHPR破解，密码为2563
-![破解密码](https://i-blog.csdnimg.cn/direct/7563d3e01eb44bfc80af28c22a892aab.png)
+![截图](https://github.com/user-attachments/assets/8efcb77f-939b-4712-9bd0-64a01ef2f983)
 打开文件，ZmxhZ3s3MDM1NDMwMGE1MTAwYmE3ODA2ODgwNTY2MWI5M2E1Y30=，是base64加密，cyberchef解密
 ‘flag{70354300a5100ba78068805661b93a5c}’
