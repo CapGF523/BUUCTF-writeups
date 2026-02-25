@@ -1,0 +1,40 @@
+##文件中的秘密
+![插图](https://github.com/user-attachments/assets/7cc2e94c-7071-4f0b-814b-61245a6cf369)
+'f. l.a.g.{. 8.7.0.c. 5.a.7.2. 8.0.6.1. 1.5.c.b. 5.4.3.9. 3.4.5.d. 8.b.0.1. 4.3.9.6. }'去掉点即可
+
+##被嗅探的流量
+wireshark打开，ctrl+F打开搜索框搜索字符串flag
+![插图](https://github.com/user-attachments/assets/3c14d33d-d5d7-4095-8efb-1041169ac997)
+'flag{da73d88936010da1eeeb36e945ec4b97}'
+
+##lsb
+用stegsolve打开，data extract选中lsb first，选中三色的零通道，选save bin得到一个二维码，扫一扫即可得到flag
+'flag{1sb_i4_s0_Ea4y}'
+
+##rar
+打开文件需要密码，ARCHPR一下密码为8795
+![插图](https://github.com/user-attachments/assets/20cd6360-431e-4271-b37b-1e542b587dfd)
+![插图](https://github.com/user-attachments/assets/83ed6d46-e905-419d-b0e8-7f96e23c2227)
+'flag{1773c5da790bd3caff38e3decd180eb7}'
+
+
+##qr
+二维码，用工具扫描一下
+![插图](https://github.com/user-attachments/assets/97ac7bd3-63da-421e-a415-01d82f636e61)
+欢迎参加本次比赛，密码为'Flag{878865ce73370a4ce607d21ca01b5e59}'
+
+##镜子里面的世界
+文件名提示用stegsolve，file format没有，应该是lsb隐写，选中红绿蓝的0通道，lsb first
+![插图](https://github.com/user-attachments/assets/edea9a61-b6db-46f4-98a2-c98d36bb6ca3)
+包装一下：'flag{st3g0_ saurus_wr3cks}'
+
+##easycap
+wireshark打开，搜索flag没有，尝试点开追踪tcp流
+![插图](https://github.com/user-attachments/assets/df0cfe11-e867-454a-9e35-b098e734619d)
+'FLAG:385b87afc8671dee07550290d16a8071'
+
+##隐藏的钥匙
+用HxD打开，搜索flag，得到base64字符，cyberchef解密
+![插图](https://github.com/user-attachments/assets/c03981c0-9c10-4068-9409-0c19b5921a71)
+![插图](https://github.com/user-attachments/assets/57f935e2-fd8c-49ef-8772-5815841dd5a4)
+'flag{377cbadda1eca2f2f73d36277781f00a}'
